@@ -1,0 +1,22 @@
+{
+  "name": "kac-gun-kaldi",
+  "version": "1.0.0",
+  "description": "Belirli bir tarihe kalan gun/saat/dakika/saniye sayisini mesaj atan Discord botu.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord bot"
+  ],
+  "author": "Onur Ravli",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2"
+  }
+}
